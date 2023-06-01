@@ -66,7 +66,12 @@ class Resume extends Component {
 
             <div className="nine columns main-col">
               <div className="row item">
-                <div className="twelve columns">{education}</div>
+                <div className="twelve columns">
+                  <h3>University of Lagos</h3>
+
+                  <h6>Bachelor of Science in Engineering</h6>
+                </div>
+                <div></div>
               </div>
             </div>
           </div>
@@ -76,15 +81,28 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Work Experience</span>
               </h1>
             </div>
 
-            <div className="nine columns main-col">{work}</div>
+            <div className="nine columns main-col">
+              <p>
+                Junior Cloud Practitioner, <b> GENERATION U.S.A </b>
+                {""}
+              </p>
+              <p>
+                Block-Chain Developer/Technical Writer <b>OPHIR INSTITUTE </b>{" "}
+                Feb 2023-Present
+              </p>
+              <p>
+                Junior Web Developer May2023-Present
+                <b> Billyronks Nigeria Limited </b>
+              </p>
+            </div>
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
+        <Slide left duration={1400}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
@@ -93,7 +111,10 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
+              <p>
+                {" "}
+                Below are the skills i posses and how proficient i am with them
+              </p>
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>
